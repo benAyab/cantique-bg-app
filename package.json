@@ -1,0 +1,24 @@
+{
+  "name": "cantiquebackgroundmanagement",
+  "version": "1.0.0",
+  "description": "background management key app for cantique guiziga",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "#NodeJs",
+    "#MongoDB",
+    "#ExpressJs",
+    "#Mongoose",
+    "#licence-key-gen"
+  ],
+  "author": "Victor G. aka Ayab BEN",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "license-key-gen": "^0.1.4",
+    "mogoose": "^0.0.1-security",
+    "mongoose": "^6.6.7"
+  }
+}
