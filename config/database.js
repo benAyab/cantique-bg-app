@@ -1,7 +1,7 @@
 // Import de Mongoose 
 var mongoose = require('mongoose');
 
-const properties = require('./properties');
+const properties = require('./properties'); //Your config here
 
 const {LOCAL_DB, REMOTE_DB} = properties 
 
