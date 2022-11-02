@@ -10,9 +10,4 @@ module.exports = function(router){
     router.put('/license/:serial', licenseController.updateLicense);
     router.delete('/license/:serial', licenseController.deleteLicense);
 
-    //User management routes
-    //router.post('/login', login);
-    //Just once to add default admin
-    //router.post('/SUPER-ADMIN-TEMP/create', ctrlUser.createUser);
-
 }
